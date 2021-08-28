@@ -1,0 +1,11 @@
+Pomclass\OrganizationInfo.class
+com\vitiger\comcast\utilities\FileUtility.class
+Pomclass\HomePage.class
+Pomclass\OrganizationPage.class
+com\vitiger\comcast\utilities\createtakeshot.class
+com\vitiger\comcast\utilities\ExcelUtility.class
+Pomclass\LoginPage.class
+com\vitiger\comcast\utilities\JavaUtlity.class
+com\vitiger\comcast\utilities\WebDriverUtility.class
+Pomclass\BaseClasspage.class
+Pomclass\CreatingNewOrganizationPage.class

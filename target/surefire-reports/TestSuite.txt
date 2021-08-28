@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 17, Failures: 2, Errors: 0, Skipped: 14, Time elapsed: 48.839 s <<< FAILURE! - in TestSuite
+configBC(ExecutePomTest.PracticeBeforeTest)  Time elapsed: 0.968 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Can inject only one of <ITestContext, XmlTest> into a @BeforeClass annotated configBC.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+
+configBC(seleniumprojecttest1.TestscriptPom2)  Time elapsed: 47.061 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Can inject only one of <ITestContext, XmlTest> into a @BeforeClass annotated configBC.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+

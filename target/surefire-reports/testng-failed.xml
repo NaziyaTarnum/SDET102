@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="seleniumprojecttest1.TestscriptPom2">
+        <methods>
+          <include name="configBC"/>
+          <include name="configAc"/>
+          <include name="comfigBM"/>
+          <include name="createType"/>
+          <include name="configAM"/>
+        </methods>
+      </class> <!-- seleniumprojecttest1.TestscriptPom2 -->
+      <class name="ExecutePomTest.PracticeBeforeTest">
+        <methods>
+          <include name="Cratetypetest"/>
+          <include name="configBC"/>
+          <include name="configAc"/>
+          <include name="comfigBM"/>
+          <include name="createmembrertest"/>
+          <include name="configAM"/>
+          <include name="createTypeVerify"/>
+        </methods>
+      </class> <!-- ExecutePomTest.PracticeBeforeTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
